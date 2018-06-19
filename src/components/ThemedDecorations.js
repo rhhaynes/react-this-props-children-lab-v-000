@@ -7,5 +7,5 @@ export default class ThemedDecorations extends React.Component {
       return (<div className="theme">{child}</div>);
     });
 
-    return (<><>);
+    return (<div>{childrenWithTheme}</div>);
 }
