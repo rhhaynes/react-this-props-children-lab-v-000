@@ -1,4 +1,4 @@
-import Reach from 'react';
+import React from 'react';
 
 export default class ThemedDecorations extends React.Component {
   render() {
