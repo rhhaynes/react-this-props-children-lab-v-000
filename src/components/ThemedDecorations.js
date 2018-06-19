@@ -2,10 +2,10 @@ import React from 'react';
 
 export default class ThemedDecorations extends React.Component {
   render() {
-    return (
-      <div className="themed-decorations">
-        <div className=""></div>
-      </div>
-    );
-  }
+
+    const childrenWithTheme = React.Children.map(this.props.children, child => {
+      return (<div className="theme">{child}</div>);
+    });
+
+    return (<><>);
 }
